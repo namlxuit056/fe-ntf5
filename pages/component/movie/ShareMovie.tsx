@@ -59,10 +59,9 @@ const ShareMovie = () => {
         router.push('/');
       }
     } catch (error: any) {
-      console.log(error.message);
       openNotification({
         type: ETypeNotification.ERROR,
-        message: error.message,
+        message: error,
       });
     }
   };

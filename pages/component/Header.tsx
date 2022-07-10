@@ -112,7 +112,7 @@ const Header = () => {
           />
           <input
             autoComplete="off"
-            type="text"
+            type="password"
             name="password"
             id="password"
             onChange={handleChange}
