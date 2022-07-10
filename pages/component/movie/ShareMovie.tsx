@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { request } from '../../utils/request';
+import { request } from '../../../utils/request';
 import openNotification, { ETypeNotification } from '../Notification';
 const Style = styled.div`
   width: 600px;

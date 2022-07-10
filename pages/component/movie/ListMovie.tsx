@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { request } from '../../utils/request';
+import { request } from '../../../utils/request';
 import Movie from './Movie';
 
 const ListMovie = () => {
@@ -13,6 +13,7 @@ const ListMovie = () => {
           method: 'GET',
         });
         setMovies(res.data);
+        setLoading(false);
       };
       fetchPost();
     }

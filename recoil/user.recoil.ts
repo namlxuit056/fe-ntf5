@@ -1,8 +1,7 @@
-import { request } from './../utils/request';
-import { IPost } from 'interface/post.interface';
+import { request } from '../utils/request';
 import { atom, selector } from 'recoil';
 
-const initialValue: IPost = undefined;
+const initialValue = undefined;
 
 const mySelector = selector({
   key: 'mySelector',

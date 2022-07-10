@@ -42,6 +42,7 @@ const Style = styled.div`
   }
 `;
 const Movie = ({ movie }) => {
+  if (!movie) return;
   return (
     <Style>
       <div className="video">

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useSetRecoilState } from 'recoil';
-import { currentUserState } from '../recoil/user.recoil';
-import { request } from '../utils/request';
+import { currentUserState } from '../../recoil/user.recoil';
+import { request } from '../../utils/request';
 
 const Page = ({ children }) => {
   const [loading, setLoading] = useState(true);

@@ -1,8 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Header from './component/Header';
-import Movie from './component/movie/Movie';
 import styled from 'styled-components';
+import Header from './component/Header';
 import ListMovie from './component/movie/ListMovie';
 const Style = styled.div`
   display: flex;

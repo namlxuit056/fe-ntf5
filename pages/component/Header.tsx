@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import { request } from '../utils/request';
+import { request } from '../../utils/request';
 import openNotification, { ETypeNotification } from './Notification';
 import { useRouter } from 'next/router';
 import { useRecoilState, useRecoilValue } from 'recoil';
-import { removeToken, setToken } from '../lib/auth';
-import { currentUserState } from '../recoil/user.recoil';
+import { removeToken, setToken } from '../../lib/auth';
+import { currentUserState } from '../../recoil/user.recoil';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
